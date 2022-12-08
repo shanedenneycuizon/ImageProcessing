@@ -14,7 +14,7 @@ namespace IS_DIP_Cuizon
 {
     public partial class Form1 : Form
     {
-        private Bitmap loaded, imageA, imageB, processed,resultImage;
+        private Bitmap loaded, imageA, imageB, processed;
         public Form1()
         {
             InitializeComponent();
@@ -35,7 +35,22 @@ namespace IS_DIP_Cuizon
 
         private void saveToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            saveFileDialog1.ShowDialog();
+            
+            saveFileDialog1.Filter = "JPG(*.JPG)|*.jpg";
+
+            if (saveFileDialog1.ShowDialog() == DialogResult.OK)
+            {
+                //if subtract, save picturebox 3
+                if (pictureBox3.Image != null)
+                {
+                    pictureBox3.Image.Save(saveFileDialog1.FileName);
+                }
+                //else save picture box 2
+                else
+                {
+                    pictureBox2.Image.Save(saveFileDialog1.FileName);
+                }
+            }
         }
 
         private void openFileDialog1_FileOk(object sender, CancelEventArgs e)
@@ -118,7 +133,50 @@ namespace IS_DIP_Cuizon
 
         private void histogramToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            Color sample;
+            Color gray;
+            Byte graydata;
             
+            for (int x = 0; x < loaded.Width; x++)
+            {
+                for (int y = 0; y < loaded.Height; y++)
+                {
+                    sample = loaded.GetPixel(x, y);
+                    graydata = (byte)((sample.R + sample.G + sample.B) / 3);
+                    gray = Color.FromArgb(graydata, graydata, graydata);
+                    loaded.SetPixel(x, y, gray);
+                }
+            }
+
+            
+            int[] histdata = new int[loaded.Width];
+            for (int x = 0; x < loaded.Width; x++)
+            {
+                for (int y = 0; y < loaded.Height; y++)
+                {
+                    sample = loaded.GetPixel(x, y);
+                    histdata[sample.R]++;
+                }
+            }
+
+            
+            processed = new Bitmap(loaded.Width, loaded.Height);
+            for (int x = 0; x < processed.Width; x++)
+            {
+                for (int y = 0; y < processed.Height; y++)
+                {
+                    processed.SetPixel(x, y, Color.White);
+                }
+            }
+            
+            for (int x = 0; x < processed.Width; x++)
+            {
+                for (int y = 0; y < Math.Min(histdata[x] / 5, processed.Height - 1); y++)
+                {
+                    processed.SetPixel(x, (processed.Height - 1) - y, Color.Black);
+                }
+            }
+            pictureBox2.Image = processed;
         }
 
         private void openFileDialog2_FileOk(object sender, CancelEventArgs e)
