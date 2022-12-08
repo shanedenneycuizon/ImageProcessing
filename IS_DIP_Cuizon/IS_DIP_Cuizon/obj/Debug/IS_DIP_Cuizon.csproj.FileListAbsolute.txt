@@ -9,3 +9,14 @@ C:\Users\Shane\Documents\SCHOOL FILES\C2 - CS345 Intelligent Systems\DIP\IS_DIP_
 C:\Users\Shane\Documents\SCHOOL FILES\C2 - CS345 Intelligent Systems\DIP\IS_DIP_Cuizon\IS_DIP_Cuizon\obj\Debug\IS_DIP_Cuizon.csproj.CoreCompileInputs.cache
 C:\Users\Shane\Documents\SCHOOL FILES\C2 - CS345 Intelligent Systems\DIP\IS_DIP_Cuizon\IS_DIP_Cuizon\obj\Debug\IS_DIP_Cuizon.exe
 C:\Users\Shane\Documents\SCHOOL FILES\C2 - CS345 Intelligent Systems\DIP\IS_DIP_Cuizon\IS_DIP_Cuizon\obj\Debug\IS_DIP_Cuizon.pdb
+C:\Users\Shane\Documents\SCHOOL FILES\C2 - CS345 Intelligent Systems\DIP\ImageProcessing\IS_DIP_Cuizon\IS_DIP_Cuizon\bin\Debug\IS_DIP_Cuizon.exe.config
+C:\Users\Shane\Documents\SCHOOL FILES\C2 - CS345 Intelligent Systems\DIP\ImageProcessing\IS_DIP_Cuizon\IS_DIP_Cuizon\bin\Debug\IS_DIP_Cuizon.exe
+C:\Users\Shane\Documents\SCHOOL FILES\C2 - CS345 Intelligent Systems\DIP\ImageProcessing\IS_DIP_Cuizon\IS_DIP_Cuizon\bin\Debug\IS_DIP_Cuizon.pdb
+C:\Users\Shane\Documents\SCHOOL FILES\C2 - CS345 Intelligent Systems\DIP\ImageProcessing\IS_DIP_Cuizon\IS_DIP_Cuizon\obj\Debug\IS_DIP_Cuizon.csproj.AssemblyReference.cache
+C:\Users\Shane\Documents\SCHOOL FILES\C2 - CS345 Intelligent Systems\DIP\ImageProcessing\IS_DIP_Cuizon\IS_DIP_Cuizon\obj\Debug\IS_DIP_Cuizon.csproj.SuggestedBindingRedirects.cache
+C:\Users\Shane\Documents\SCHOOL FILES\C2 - CS345 Intelligent Systems\DIP\ImageProcessing\IS_DIP_Cuizon\IS_DIP_Cuizon\obj\Debug\IS_DIP_Cuizon.Form1.resources
+C:\Users\Shane\Documents\SCHOOL FILES\C2 - CS345 Intelligent Systems\DIP\ImageProcessing\IS_DIP_Cuizon\IS_DIP_Cuizon\obj\Debug\IS_DIP_Cuizon.Properties.Resources.resources
+C:\Users\Shane\Documents\SCHOOL FILES\C2 - CS345 Intelligent Systems\DIP\ImageProcessing\IS_DIP_Cuizon\IS_DIP_Cuizon\obj\Debug\IS_DIP_Cuizon.csproj.GenerateResource.cache
+C:\Users\Shane\Documents\SCHOOL FILES\C2 - CS345 Intelligent Systems\DIP\ImageProcessing\IS_DIP_Cuizon\IS_DIP_Cuizon\obj\Debug\IS_DIP_Cuizon.csproj.CoreCompileInputs.cache
+C:\Users\Shane\Documents\SCHOOL FILES\C2 - CS345 Intelligent Systems\DIP\ImageProcessing\IS_DIP_Cuizon\IS_DIP_Cuizon\obj\Debug\IS_DIP_Cuizon.exe
+C:\Users\Shane\Documents\SCHOOL FILES\C2 - CS345 Intelligent Systems\DIP\ImageProcessing\IS_DIP_Cuizon\IS_DIP_Cuizon\obj\Debug\IS_DIP_Cuizon.pdb
